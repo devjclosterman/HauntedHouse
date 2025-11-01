@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HauntHouse.io — Enter if you dare</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="scene" aria-hidden="false">
+    <div class="sky"></div>
+    <div class="moon"></div>
+    <div class="house">
+      <div class="window window-left"></div>
+      <div class="window window-right"></div>
+      <div class="door"></div>
+    </div>
+
+    <div id="ghost-layer"></div>
+    <div id="fog-layer"></div>
+    <div id="ui">
+      <h1>HauntHouse.io</h1>
+      <p id="countdown"></p>
+      <button id="start-sfx">Toggle Atmosphere</button>
+    </div>
+  </div>
+
+  <audio id="ambience" loop src="assets/audio/creepy-ambience.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
