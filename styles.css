@@ -26,7 +26,7 @@ body{
   transform:translateZ(0);
   animation:moon-breathe 6s ease-in-out infinite;
 }
-@keyframes moon-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}
+@keyframes moon-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 
 /* House */
 .house{
