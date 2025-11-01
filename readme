@@ -32,7 +32,7 @@ Vanilla HTML/CSS/JS. No build step required. Works as a static site — drop it 
 
 ## Quick start
 ```bash
-git clone https://github.com/<you>/haunthouse-io.git
+git clone
 cd haunthouse-io
 # Open index.html in your browser or use a simple server:
 python -m http.server 8000
