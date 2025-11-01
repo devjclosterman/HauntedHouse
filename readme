@@ -1,0 +1,38 @@
+haunthouse-io/
+├─ README.md
+├─ index.html
+├─ styles.css
+├─ script.js
+├─ assets/
+│  ├─ sprites/ (ghost svg, pumpkin svg)
+│  └─ audio/ (creepy-ambience.mp3, creak.wav)
+├─ games/
+│  ├─ find-the-candy.html
+│  └─ ouija-mini.html
+├─ .github/
+│  └─ workflows/
+│     └─ gh-pages.yml
+├─ LICENSE
+└─ CONTRIBUTING.md
+
+# HauntHouse.io 👻🏚️
+
+**An interactive haunted house web experience** — animations, mini-games, spooky sounds, and Easter eggs. Perfect for Halloween demos, parties, and messing around with CSS/JS tricks.
+
+## Features
+- Animated ghosts that follow the cursor and float with physics-like easing
+- Flickering candle lights and fog layers (parallax)
+- Mini-games: *Find the Candy* and *Ouija Puzzle*
+- Countdown to Halloween and midnight confetti
+- Deploy-ready via GitHub Pages (Action included)
+- Accessible controls and mobile friendly
+
+## Tech
+Vanilla HTML/CSS/JS. No build step required. Works as a static site — drop it in `gh-pages` or use the included GitHub Action.
+
+## Quick start
+```bash
+git clone https://github.com/<you>/haunthouse-io.git
+cd haunthouse-io
+# Open index.html in your browser or use a simple server:
+python -m http.server 8000
